@@ -16,6 +16,12 @@ public class Groups {
 	}
 	
 	@Test(groups={"Functional test"})
+	public void test4()
+	{
+		System.out.println("mail sent");
+	}
+	
+	@Test(groups={"Functional test"})
 	public void test3()
 	{
 		System.out.println("Log out");
